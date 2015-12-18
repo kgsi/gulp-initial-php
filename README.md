@@ -17,21 +17,19 @@ GulpベースのPHPの使用を想定したWEBアプリ・サイト向けテン�
     bower.json
     gulp
      └ tasks       
-	  config.js
+	    config.js
 
 ## Spec
  * SASS
  * Minify & Concat JS,CSS 
  * Autoprefix(pleeease)
- * Image Minify(pngquant, jpegtran)
+ * Image minify(pngquant, jpegtran)
  * BrowserSync
- 
  * ~~Crtitical CSS~~
  * ~~StyleGuide(Styledocco)~~
  
 ## bower
-bowerに登録済みのファイルは、watchコマンドを実行した際に
-自動的にlibs.jsとして出力されます。
+bowerに登録済みかつダウンロード済みのファイルは、watchコマンドを実行した際自動的に**assets/js/vendor/libs.js**に出力されます。
 
 ### Default library
  * jQuery
@@ -44,15 +42,19 @@ bowerに登録済みのファイルは、watchコマンドを実行した際に
     $ bower install
     $ sudo npm install
 
+### Setup
+ローカル環境にApache,PHPが動作する環境を用意することが必須です。
+MAMPの使用を想定しており、初期Proxyは**localhost:8888**にセットしています。
+
 ### Command
 
-#### watch
+#### Watch
 
     $ gulp
 
-#### dest
+#### dist
 
-    $ gulp dest
+    $ gulp dist
 
 <!--#### critical css
 
