@@ -15,10 +15,9 @@
 <meta name="description" content="<?php echo $pageDescription; ?><?php echo $pageData->getDescription(PAGE_ID); ?>">
 <link rel="canonical" href="<?php echo HOST_NAME . $_SERVER['REQUEST_URI']; ?>" />
 <link rel="shortcut icon" href="/favicon.ico" />
-<link rel="apple-touch-icon" href="">
 <link rel='stylesheet' href="/assets/css/style.css">
 <?php echo $pageData->getCss(PAGE_ID); ?>
-<script src="/assets/js/libs.js"></script>
+<script src="/assets/js/vendor/libs.js"></script>
 <?php echo $pageData->getJs(PAGE_ID); ?>
 <!--[if lt IE 9]>
 <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -27,4 +26,3 @@
 </head>
 <body class="<?php echo setBodyClass(PAGE_ID); ?>">
 <div class="wrapper">
-    test

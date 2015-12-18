@@ -1,9 +1,15 @@
-var path               = require('path'),
-	app               = 'app',
-    dist               = 'dist';
-	//relativeSrcPath    = path.relative('.', src);
+var path = require('path'),
+	 app = 'app',
+    dist = 'dist';
 
 module.exports = {
+
+    baseDir: 'app',
+
+    watch: [
+        app + '/**/*.html',
+        app + '/**/*.php'
+    ],
 
 	css: {
 		src:    app + '/assets/sass/**/*.scss',
@@ -14,7 +20,7 @@ module.exports = {
 	},
 
 	js: {
-    	src:    app + '/assets/js/*.js',
+    	src:    app + '/assets/js/src/*.js',
 		dest:   app + '/assets/js',
 		uglify: false
 	},

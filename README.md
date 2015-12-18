@@ -5,12 +5,14 @@ GulpベースのPHPの使用を想定したWEBアプリ・サイト向けテン�
 
 ##Directory
 
-    dist  //Dist directory
+    dist  // Dist directory
      └ assets
         └ sass   
-        └ app      // program file 
-        └ include  // common parts
+        └ app      // Program file 
+        └ include  // Common parts
         └ js
+          └ src
+          └ vendor
         └ images
     package.json
     gulpfile.js

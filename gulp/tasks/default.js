@@ -11,6 +11,10 @@ gulp.task('default', ['browser','watch'], function() {
 // watch
 gulp.task('watch', function(){
 
+    watch(config.watch, function(event){
+		gulp.start(['reload']);
+	});
+
 	watch(config.css.src, function(event){
 		gulp.start(['sass']);
 	});
