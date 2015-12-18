@@ -26,10 +26,9 @@ GulpベースのPHPの使用を想定したWEBアプリ・サイト向けテン�
  * Image Minify(pngquant, jpegtran)
  * BrowserSync
  
- <!--* Crtitical CSS
- * StyleGuide(Styledocco)
--->
-
+ * ~~Crtitical CSS~~
+ * ~~StyleGuide(Styledocco)~~
+ 
 ## bower
 bowerに登録済みのファイルは、watchコマンドを実行した際に
 自動的にlibs.jsとして出力されます。
@@ -40,7 +39,12 @@ bowerに登録済みのファイルは、watchコマンドを実行した際に
 
 ## Usage
 
-### gulp Command
+### Install
+
+    $ bower install
+    $ sudo npm install
+
+### Command
 
 #### watch
 
