@@ -8,9 +8,8 @@ config.codekit
 # Files that might appear on external disk
 .Trashes
 
-# dest file
-app/**/*
-dest/**/*
+# dist file
+dist/**/*
 
 ### Ruby ###
 *.gem

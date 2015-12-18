@@ -1,0 +1,15 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+AddType image/svg+xml .svg
+AddType image/svg+xml .svgz
+AddType application/x-httpd-php .php .html
+AddHandler application/x-httpd-php .php .html
+DirectoryIndex index.html index.htm index.shtml index.php index.cgi
+AddOutputFilter INCLUDES .html .htm
