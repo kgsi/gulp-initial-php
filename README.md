@@ -31,8 +31,8 @@ GulpベースのPHPの使用を想定したWEBアプリ・サイト向けテン�
  * ~~Crtitical CSS~~
  * ~~StyleGuide(Styledocco)~~
  
-## bower
-bowerに登録済みかつダウンロード済みのファイルは、watchコマンドを実行した際自動的に**assets/js/vendor/libs.js**に出力されます。
+## Bower
+Bowerに登録済みかつダウンロード済みのファイルは、watchコマンドを実行した際自動的に**assets/js/vendor/libs.js**に出力されます。
 
 ### Default library
  * jQuery
