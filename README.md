@@ -22,6 +22,7 @@ GulpベースのPHPの使用を想定したWEBアプリ・サイト向けテン�
 	    config.js
 
 ## Spec
+ * PHP
  * SASS
  * Minify & Concat JS,CSS 
  * Autoprefix(pleeease)
@@ -41,11 +42,12 @@ bowerに登録済みかつダウンロード済みのファイルは、watchコ�
 
 ### Download
 リポジトリをダウンロードして指定のディレクトリに移動します。
-もしくはcloneコマンドでデータをコピー
+もしくはcloneコマンドでデータをコピー。
 
     $ git clone git://github.com/kgsi/gulp-initial-php.git
 
 ### Install
+インストールディレクトリに移動後、各インストールコマンドを実行。
 
 #### Bower(登録されているlibraryのダウンロード)
     $ bower install 
@@ -54,8 +56,8 @@ bowerに登録済みかつダウンロード済みのファイルは、watchコ�
     $ sudo npm install
 
 ### Setup
-ローカル環境にApache,PHPが動作する環境を用意することが必須です。
-MAMPの使用を想定しており、初期Proxyは**localhost:8888**にセットしています。
+ローカル環境にApache,PHPが動作する環境を用意することが必須です。  
+MAMPの使用を想定して初期Proxyは**localhost:8888**にセットしています。
 
 [MAMP](https://www.mamp.info/de/)を使用している場合はMAMPを起動後、/appディレクトリを
 ルートディレクトリとして設定、起動してください。
