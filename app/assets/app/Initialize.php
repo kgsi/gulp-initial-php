@@ -11,13 +11,13 @@ error_reporting(E_ERROR | E_WARNING | E_PARSE);
 mb_language('ja');
 mb_internal_encoding('utf-8');
 
+// define
+define('HOST_NAME','http://xxx.xxxxx.com');
+
 // Require
 require_once($_SERVER['DOCUMENT_ROOT'] . '/assets/app/PageData.php');
 
 $pageData = new pageData();
-
-// define
-define('HOST_NAME','http://xxx.xxxxx.com');
 
 // function
 function setBodyClass($pageID){

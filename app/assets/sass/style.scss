@@ -1,5 +1,5 @@
 // Init
-@import "vendor/sanitize";
+@import "vendor/reset";
 @import "vars";
 
 // Module
@@ -9,4 +9,6 @@
 
 // Core
 @import "base";
-@import "pages";
+
+// Pages
+@import "pages/index";

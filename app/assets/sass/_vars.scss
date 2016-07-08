@@ -7,7 +7,7 @@ $color-tertiary:          #333 !default;
 //basic color
 $color-black:             #111 !default;
 $color-gray:              #666 !default;
-$color-white:             #FFF !default;
+$color-white:             #fff !default;
 //button color
 $btn-color-primary:       $color-primary;
 $btn-color-secondary:     $color-secondary;
@@ -15,8 +15,7 @@ $btn-color-secondary:     $color-secondary;
 
 // font
 $font-family-sans-serif:  "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro W3", "Lucida Grande", "Hiragino Kaku Gothic Pro", Osaka, "メイリオ", Verdana, "ＭＳ Ｐゴシック", sans-serif !default;
-$font-family-serif:       "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif !default;
-$font-family-base:        $font-family-sans-serif !default;
+$font-family-serif:       "游明朝体", "Yu Mincho", YuMincho, "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ ゴシック", sans-serif !default;
 
 
 // font size
@@ -35,14 +34,10 @@ $line-height-base:        1.6 !default; // 20/14
 $line-height-computed:    floor(($font-size-base * $line-height-base)) !default; // ~20px
 
 
-//radius 
+// radius
 $border-radius-base:      4px;
 $border-radius-large:     8px;
 $border-radius-small:     2px;
-
-
-// background
-$bg-XXX: url(XXX.png) repeat;
 
 
 // device width
@@ -77,4 +72,3 @@ $ease-in-out-sine:  cubic-bezier(0.445,  0.050, 0.550, 0.950);
 $ease-in-out-expo:  cubic-bezier(1.000,  0.000, 0.000, 1.000);
 $ease-in-out-circ:  cubic-bezier(0.785,  0.135, 0.150, 0.860);
 $ease-in-out-back:  cubic-bezier(0.680, -0.550, 0.265, 1.550);
-
